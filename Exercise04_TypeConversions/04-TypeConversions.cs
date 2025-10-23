@@ -1,11 +1,14 @@
 double DemoImplicitConversions()
 {
-    throw new NotImplementedException();
-}
+    int intergerNumber = 42;
+    double result = intergerNumber + 0.5;
+
+   
 
 int DemoExplicitConversions()
 {
-    throw new NotImplementedException();
+    double decimalNumber = 15.87;
+    int result = (int)decimalNumber;
 }
 
 
